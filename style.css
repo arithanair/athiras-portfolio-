@@ -1,0 +1,225 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.section {
+  background-color: #f6cfcf;
+  padding: 40px;
+  border-bottom: 2px solid white;
+}
+
+h2 {
+  text-align: center;
+}
+
+/* ABOUT SECTION*/
+.about-container {
+  display: flex;
+  align-items: center;  /* vertically aligns image + text */
+  gap: 20px;            /* space between picture and title */
+}
+
+.selfpic {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* ACHIEVEMENTS SECTION*/
+.achievement-container {
+  display: flex;            /* put items in a row */
+  justify-content: center;  /* center the row horizontally */
+  gap: 20px;                /* space between each achievement */
+  margin-top: 30px;
+  flex-wrap: wrap;          /* allows wrapping on small screens */
+}
+
+.achievement {
+  text-align: center;       /* centers text under each image */
+  max-width: 200px;         /* keeps images uniform */
+}
+
+.achievement-img {
+  width: 150px;             /* set image width */
+  height: 150px;            /* set image height */
+  object-fit: cover;        /* prevent stretching */
+  border-radius: 10px;      /* optional rounded corners */
+}
+
+/* EXTRACURRICULARS SECTION */
+.extra-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.extra-item {
+  max-width: 250px;
+  text-align: center;
+}
+
+.extra-img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.um-dance-images {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.extra-img-small {
+  width: 70px;
+  height: 70px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+
+/* FUN FACTS SECTION*/
+
+.fun-container {
+  display: flex;
+  justify-content: center;
+}
+
+.fun-text {
+  text-align: center;
+}
+
+.fun-text ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.fun-images {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.fun-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.note {
+  text-align: right;
+  font-size: 14px;
+}
+
+.about-container {
+  display: flex;
+  align-items: center; /* vertically aligns image + text */           /* space between picture and title */
+
+}
+
+.selfpic {
+  width: 300px;           /* size of your profile pic */
+  height: 300px;
+  cover;     /* keeps proportions */
+  border-radius: 50%;    /* circle */
+}
+
+.spotlight {
+  width:;
+  height:245px; 
+  object-fit: cover;
+}
+
+.p4p {
+  width:300px;
+  object-fit: cover
+  border-radius: 50%;
+}
+/* Extracurriculars */
+/* Container for all extracurricular items */
+.extra-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;  /* wraps on smaller screens */
+  gap: 30px;
+}
+
+/* Each extracurricular block */
+.extra-item {
+  max-width: 250px;
+  text-align: center;
+}
+
+/* Large image for single activities */
+.extra-img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 10px;  /* rounded edges */
+  object-fit: cover;
+}
+
+/* Small images in a row (UM Dance example) */
+.um-dance-images {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.extra-img-small {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+/* Links styling */
+.extra-item a {
+  color: #333;
+  text-decoration: underline;
+}
+/* Fun Facts Section */
+.fun-container {
+  display: flex;
+  justify-content: center;
+}
+
+.fun-text {
+  text-align: center;
+}
+
+/* List styling */
+.fun-text ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+/* Row of 3 images */
+fun-images {
+  display: flex;
+  justify-content: center;  /* centers the row */
+  gap: 15px;                /* space between images */
+  margin-top: 10px;
+}
+
+/* All images in the row use this class */
+.fun-img {
+  width: 200px;       /* same width */
+  height: 200px;      /* same height */
+  object-fit: cover; /* keeps proportions */
+  border-radius: 10px;
+}
+
+
